@@ -1,4 +1,4 @@
-# TestAssignmentNew
+# solvewithdev-angular12-app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## ######################################################################################
+## Project Properties
+
+## Network Drive
+Network Drive Name = X:
+Network Drive Path = \\DPAIO-DELL\Songs
+
+NETWORK_DRIVE_BASE_CMD = "cmd.exe /c net use"
+MAP_CORNELLAD_NETWORK_DRIVE = "cmd.exe /c net use X: \\\\DPAIO-DELL\\Songs /persisten:yes";
+MAP_NON_CORNELLAD_NETWORK_DRIVE = "cmd.exe /c net use X: \\\\DPAIO-DELL\\Songs password /user:domain\\username /persisten:yes";
+DELETE_NETWORK_DRIVE = "cmd.exe /c net use X: /delete";
+
+## Windows Language List
+INSTALLED_LANGUAGE_LIST_PS = "powershell.exe Get-WinUserLanguageList"
+
+## Windows TimeZone
+CHANGE_TIMEZONE_CMD = "cmd.exe /c tzutil /s \"%s\"";
+CHANGE_TIMEZONE_CMD1 = "cmd.exe /c tzutil /s \"" India Standard Time "\"";
+TIMEZONE_LIST_ALL_CMD = "cmd.exe /c tzutil /l ";
