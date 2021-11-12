@@ -26,6 +26,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Creating Angular Project
+
+Install Angular   		: npm install -g @angular/cli
+Create Angular Project 	: ng new solvewithdev-ui-app
+Install Bootstrap 		: npm install --save @ng-bootstrap/ng-bootstrap
+Devtools Install 		: npm install --save-dev @angular-devkit/build-angular
+
+
+## References :
+https://stackoverflow.com/questions/55459663/return-json-from-angular-service-to-component
+https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad
+
+
 
 ## ######################################################################################
 ## Project Properties
